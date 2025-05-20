@@ -13,8 +13,7 @@
 ## 🖥️ Tech Stack
 
 - **Frontend:** React, HTML, CSS, JavaScript, Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB / (or your choice)
+- **Backend:** Node.js
 
 
 ### Prerequisites
