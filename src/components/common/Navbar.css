@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1em 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 1em 0;
+  justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #000;
+    width: fit-content;
+    height: 50px;
+    border-top-right-radius: 100em;
+    border-bottom-right-radius: 100em;
+}
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    flex-direction: row;
+  }
+  
+  .nav-links li a {
+    color: #333; 
+    text-decoration: none;
+    font-size: 16px;
+    display: inline;
+    font-weight: bold; 
+  }
+  
+  .nav-links li a:hover {
+    color: rgb(192, 192, 192); 
+  }
+  
+  .register-button button {
+    background-color: #afafaf;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .register-button button:hover {
+    background-color: #c1c1c1; /* Darker grey on hover */
+
+  }

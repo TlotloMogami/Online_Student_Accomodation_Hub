@@ -1,0 +1,521 @@
+/* section-1 is the name of the class that is to be modifeid */
+.section-1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.leftP{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+}
+
+
+.Paragraph{
+    display: block;
+}
+
+.Pic{
+    
+    height: 20%;
+}
+
+.Button1 {
+    width:fit-content; 
+    padding: 10px 10px;      /* Button width will adapt */
+    font-size: 15px;     /* Font size */
+    margin-top: 100px;    /* Space above the button */
+    border: 2px solid transparent;
+    border-color: black;/* the border color*/
+    border-radius: 30px;  /* for cuvature of the button */
+    /* background-color: white; */
+   
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #fffefe; 
+    margin: auto;
+  }
+  
+  .login-form {
+    flex: 1;
+    max-width: 400px; 
+    padding: 40px; 
+  }
+  
+  .login-form h1 {
+    margin-bottom: 20px; 
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin: 10px 0 5px; 
+  }
+  
+  .login-form input {
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+  }
+  
+  .login-form button {
+    padding: 10px; 
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    border-radius: 48px; 
+    cursor: pointer; 
+  }
+  
+  .login-illustration {
+    flex: 1; /* Flex to take available space */
+    text-align: center; 
+  }
+  
+  .login-illustration img {
+    width: 350px; 
+    margin-left: 150px;
+  }
+
+  .registration-illustration {
+    flex: 1;
+    text-align: center; 
+  }
+  
+  .registration-illustration img {
+    width: 350px; 
+    margin-top: -150px;
+    margin-left: 150px;
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #979797;
+    border-radius: 4px;
+} */
+
+.section-3{
+  width:100%; 
+  text-align: center;
+  align-items: center;
+  
+}
+.universities {
+  display: flex;
+  justify-content: center;
+  gap:15px;                      
+}
+
+.section-2{ 
+
+    height: fit-content;
+    padding: 10px 5px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+.div-1 img {
+    max-width: 100%; /* Makes the image responsive */
+    height: 100%; /* Maintains aspect ratio */
+    margin-top: 3px;
+    margin-bottom: px;
+    margin-right:5px ;
+    
+    
+}
+.div-2{
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.div-2 img{
+
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin: 5px;
+}
+
+.div-3{
+    margin: 3px;
+    color: white;
+}
+.p2 img{
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin: 5px;
+}
+.p3 img{
+    max-width: 75%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin: 5px;
+}
+
+.section-4{
+    width:100%; 
+    text-align: center;
+    align-items: center;
+
+}
+.section-4 img{
+    max-width: 25%;
+}
+
+
+
+/* ----------- START OF SEARCH RESULTS CSS --------------*/
+
+/* ---- */
+.search-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 1em 0;
+  justify-content: space-between;
+}
+
+.logo-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-color: #000;
+  width: fit-content;
+  height: 50px;
+  border-top-right-radius: 100em;
+  border-bottom-right-radius: 100em;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  width: 400px;
+  align-items: center;
+  border-radius: 100em;
+  background-color: #efefef;
+  padding: 0em 1em;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  margin: 0;
+  background-color: transparent;
+}
+
+.accent-link-btn {
+  border: none;
+  background-color: #B365FF;
+  border-radius: 100em;
+  padding: 0 3em;
+  font-size: 10px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 20px;
+}
+/* ---- */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap_1 {
+  gap: 1em;
+}
+
+.filter-results-container {
+  /* background-color: #F9F9F9; */
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 100svh;
+  width: 300px;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 0em 1em;
+}
+
+@media only screen and (max-width: 649px) {
+  .filter-results-container {
+    width: 100svw;
+    border-radius: 0;
+  }
+}
+
+
+
+.filter-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reset-btn {
+  border: none;
+  background-color: transparent;
+  color: #B365FF;
+  cursor: pointer;
+}
+
+.filter-option-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.filter-label {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.options-input {
+
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+ 
+}
+
+
+.price-input {
+  width: 100%;
+  display: flex;
+  color: #737373;
+}
+
+.price-input .field {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  align-items: center;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.price-input .separator {
+  width: 130px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 13px;
+  margin-left: 12px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fdfdfd;
+  border: 1px solid #d9d9d9;
+  -moz-appearance: textfield;
+}
+
+.slider {
+  height: 5px;
+  position: relative;
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+
+.slider .progress {
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #d9b4ff;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -21px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #bc7cfc;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #17b8a0;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.accent-btn {
+  background-color: #B365FF;
+  border: none;
+  padding: 1em 4em;
+  border-radius: 100em;
+  color: #FFFFFF;
+  align-self: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+.accent-btn:hover {
+  background-color: #9227fd;
+}
+
+.chip-grid {
+  display: grid;
+  padding: 0.1em;
+  grid-template-columns: auto auto;
+  gap: 0.5em;
+}
+
+.selectable-chip {
+  border: 1px solid black;
+  font-size: 12px;
+  color: #8d8d8d;
+  border-radius: 0.3em;
+  border: 1px solid #d9d9d9;
+  padding: 0.4em 1em;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.selectable-chip:hover {
+  color: #000;
+}
+
+.selectable-chip.active {
+  color: #9c3dfc;
+  border: 1px solid #c892fe;
+  background-color: #f3e7ff;
+  font-weight: 400;
+}
+
+.search-results-container {
+  width: 100%;
+  padding: 0em 1em;
+}
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.search-results-item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.search-results-item img{
+  width: 286px;
+  height: 165px;
+  border-radius: 1.3em;
+}
+
+.search-results-item h2{
+  font-size: 1.5em;
+}
+
+
+.search-results-item .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3em;
+  color: #737373;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.search-results-item .price {
+ display: flex;
+ flex-direction: row;
+ align-items: baseline;
+ gap: 0.2em;
+}
+
+.search-results-item .price h3 {
+  font-size: 1.5em;
+ }
+
+ .search-results-item .price span {
+  font-size: 0.5em;
+  font-weight: 400;
+ }
+/* ----------- END OF SEARCH RESULTS CSS --------------*/
+
+/* The start of the Application-Page code */
